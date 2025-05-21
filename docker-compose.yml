@@ -1,0 +1,11 @@
+services:
+  qrcode-app:
+    image: matteusmoreno/qrcode-generator:1.0.1
+    ports:
+      - "8282:8282"
+    env_file:
+      - .env
+    environment:
+      AWS_S3_BUCKET_NAME: qrcode-storage-matteus-moreno
+      AWS_S3_BUCKET_REGION: us-east-2
+    restart: always
