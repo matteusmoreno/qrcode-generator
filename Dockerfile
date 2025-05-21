@@ -12,7 +12,7 @@ EXPOSE 8282
 ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY
 
-ENV AWS_S3_BUCKET_NAME=us-east-2
-ENV AWS_S3_BUCKET_REGION=qrcode-storage-matteus-moreno
+ENV AWS_S3_BUCKET_NAME=qrcode-storage-matteus-moreno
+ENV AWS_S3_BUCKET_REGION=us-east-2
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
