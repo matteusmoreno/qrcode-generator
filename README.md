@@ -76,7 +76,7 @@ AWS_S3_BUCKET_REGION=us-east-2
 
 Once the application is running, you can access the Swagger UI:
 
-> [http://localhost:8282/swagger-ui.html](http://localhost:8282/swagger-ui.html)
+> [http://localhost:8282/swagger-ui/index.html](http://localhost:8282/swagger-ui.html)
 
 ---
 
